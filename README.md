@@ -1,4 +1,4 @@
-Clojure in action
+Clojure in Action
 =================
 
 I'm following along with the code examples of
