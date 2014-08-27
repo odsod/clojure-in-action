@@ -73,3 +73,9 @@
 (aget tokens 2)
 
 (aset tokens 2 "actionable")
+
+(import '(com.sun.grizzly.tcp.http11 GrizzlyAdapter))
+(def grizzly-adapter
+  (proxy [GrizzlyAdapter] []
+    (service [req res]
+      "Service was called!")))
